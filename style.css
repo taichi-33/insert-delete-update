@@ -12,8 +12,13 @@
     color: rgb(219, 64, 76);
 }
 
+.completed .title {
+    text-decoration: line-through;
+    color: gray;
+}
+
 .completed::after {
     content: "完了";
     margin-left: 1%;
-    color: rgb(98, 99, 102);
+    color: blue;
 }

@@ -86,7 +86,9 @@
                     <input type="checkbox" name="done" onchange="this.form.submit()" <?php echo $task['is_done']==1 ? 'checked' : '' ?>>
                 </form>
                 <form class="form title <?php echo $task['is_done']==1 ? 'completed' : 'orange' ?>" action="" method="post">
-                    <?php echo htmlspecialchars($task['title'],ENT_QUOTES,'UTF-8'); ?>
+                    <span class="title">
+                        <?php echo htmlspecialchars($task['title'],ENT_QUOTES,'UTF-8'); ?>
+                    </span>
                 </form>
                 <form class="form edit" action="" method="post">
                     <input type="hidden" name="edit_id" value="<?php echo $task['id']; ?>">

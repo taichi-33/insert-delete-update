@@ -1,0 +1,19 @@
+.form {
+    display: inline;
+}
+
+.edit {
+    margin-left: 150px;
+}
+
+.orange::after {
+    content: "未完了";
+    margin-left: 1%;
+    color: rgb(219, 64, 77);
+}
+
+.completed::after {
+    content: "完了";
+    margin-left: 1%;
+    color: rgb(98, 99, 102);
+}

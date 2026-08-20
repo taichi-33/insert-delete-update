@@ -9,7 +9,7 @@
 .orange::after {
     content: "未完了";
     margin-left: 1%;
-    color: rgb(219, 64, 77);
+    color: rgb(219, 64, 76);
 }
 
 .completed::after {

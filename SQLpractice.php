@@ -74,7 +74,7 @@
     ?>
 
     <form action="" method="post">
-        <input type="text" name="add">
+        <input type="text" name="add" placeholder="新しいタスクを入力">
         <input type="submit" value="追加">
     </form>
 
@@ -90,7 +90,7 @@
                 </form>
                 <form class="form edit" action="" method="post">
                     <input type="hidden" name="edit_id" value="<?php echo $task['id']; ?>">
-                    <input type="text" name="edit">
+                    <input type="text" name="edit" placeholder="タスクを更新">
                     <input type="submit" value="編集">
                 </form>
                 <form class="form delete" action="" method="post">
